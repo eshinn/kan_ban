@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/eshinn/kan_ban/issues"
   },
-  "homepage": "https://github.com/eshinn/kan_ban#readme"
+  "homepage": "https://github.com/eshinn/kan_ban#readme",
+  "devDependencies": {
+    "webpack": "^1.13.0"
+  }
 }
