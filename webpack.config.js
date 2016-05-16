@@ -37,6 +37,7 @@ const common = {
 // Webpack is called outside of npm.
 if (TARGET === 'start' || !TARGET) {
   module.exports = merge(common, {
+    devtool: 'eval-source-map',
     devServer: {
       contentBase: PATHS.build,
 
